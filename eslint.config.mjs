@@ -84,9 +84,6 @@ export default [
         { argsIgnorePattern: "^_" },
       ],
 
-      // @see https://typescript-eslint.io/rules/require-await/
-      "@typescript-eslint/require-await": "off",
-
       // @see https://typescript-eslint.io/rules/no-misused-promises/
       "@typescript-eslint/no-misused-promises": [
         "error",
@@ -103,6 +100,18 @@ export default [
 
       // TypeScript使用時はprop-typesは不要
       "react/prop-types": "off",
+    },
+  },
+  // Metro設定ファイルのルールを緩和
+  {
+    files: ["metro.config.js", "babel.config.js"],
+    rules: {
+      "@typescript-eslint/no-unsafe-call": "off",
+      "@typescript-eslint/no-unsafe-assignment": "off",
+      "@typescript-eslint/no-unsafe-member-access": "off",
+      "@typescript-eslint/no-unsafe-argument": "off",
+      "@typescript-eslint/no-unsafe-return": "off",
+      "@typescript-eslint/no-require-imports": "off",
     },
   },
 ];

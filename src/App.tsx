@@ -4,7 +4,9 @@ import { StatusBar } from "expo-status-bar";
 const App = () => {
   return (
     <View style={styles.container}>
-      <Text>Open up app.tsx to start working on your app!</Text>
+      <Text className="text-red-500">
+        Open up app.tsx to start working on your app!
+      </Text>
       <StatusBar style="auto" />
     </View>
   );
