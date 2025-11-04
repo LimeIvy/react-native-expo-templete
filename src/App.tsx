@@ -1,8 +1,6 @@
 import { StyleSheet, Text, View } from "react-native";
 import { StatusBar } from "expo-status-bar";
 
-import "./global.css";
-
 const App = () => {
   return (
     <View style={styles.container}>
