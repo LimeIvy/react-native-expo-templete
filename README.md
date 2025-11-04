@@ -5,7 +5,6 @@
 [![React Native](https://img.shields.io/badge/React%20Native-0.81-61dafb)](https://reactnative.dev/)
 [![ESLint](https://img.shields.io/badge/ESLint-9.39-4B32C3)](https://eslint.org/)
 [![NativeWind](https://img.shields.io/badge/NativeWind-5.0-38bdf8)](https://www.nativewind.dev/)
-[![License](https://img.shields.io/badge/license-MIT-green)](./LICENSE)
 
 React
 Native と Expo を使用したモダンなモバイルアプリ開発のためのテンプレートリポジトリです。
@@ -154,7 +153,7 @@ import { Text, View } from "react-native";
 
 export const MyComponent = () => {
   return (
-    <View className="flex-1 items-center justify-center bg-white">
+    <View>
       <Text className="text-xl font-bold text-red-500">Hello NativeWind!</Text>
     </View>
   );
