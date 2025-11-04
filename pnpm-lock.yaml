@@ -46,7 +46,7 @@ importers:
         specifier: ^8.46.3
         version: 8.46.3(eslint@9.39.1)(typescript@5.9.3)
       eslint:
-        specifier: ^9.0.0
+        specifier: ^9.39.1
         version: 9.39.1
       eslint-config-expo:
         specifier: ~10.0.0
